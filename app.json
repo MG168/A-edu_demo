@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/report/report",
+    "pages/achievement/achievement",
+    "pages/logs/logs",
+    "pages/answer/answer",
+    "pages/question/question"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "quality education",
+    "navigationBarBackgroundColor": "#ECF8EB",
+    "backgroundColor": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "荣誉墙"
+      },
+      {
+        "pagePath": "pages/report/report",
+        "text": "报告"
+      },
+      {
+        "pagePath": "pages/achievement/achievement",
+        "text": "成就"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

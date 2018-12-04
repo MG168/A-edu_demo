@@ -1,0 +1,28 @@
+<!--pages/report/report.wxml-->
+<view class="container chat">
+  <view class="chat-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/icon8.jpg"></image>
+    </view>
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">第11周表现</text>
+        <text class="lasttime">1 个月前</text>
+      </view>
+      <text class="chat-txt">xx同学在校表现较好，能自觉遵守学校的各项规章制度。上课专心听讲，积极思考，学习成绩良好。望今后能在勤奋学习之余多参加一结些有益的活动，使各方面素质都得到提高！</text>
+    </view>
+  </view>
+  <view class="chat-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/icon9.jpeg"></image>
+    </view>
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">第3周表现</text>
+        <text class="lasttime">3 个月前</text>
+      </view>
+      <text class="chat-txt">xx同学在校关心同学，遵守班级纪律，积极参加各项有益活动，上课认真听讲，作业及时完成，学习目的性较明确，本学期学业成绩有很大提高，望今后再接再励争取更好的成绩</text>
+    </view>
+  </view>
+
+</view>

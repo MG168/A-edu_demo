@@ -1,0 +1,9 @@
+<!--pages/achievement/achievement.wxml-->
+
+
+<view class="container">
+    <!-- <canvas canvas-id="Chinese" disable-scroll="true" class="canvas" bindtouchstart="touchHandler" ></canvas> -->
+    <ec-canvas id="LineOne" canvas-id="Chinese" ec="{{ ecOne }}"></ec-canvas>
+    <ec-canvas id="LineTwo" canvas-id="Math" ec="{{ ecTwo }}"></ec-canvas>
+</view>
+
